@@ -1,0 +1,51 @@
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body { background-color: red; }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap");
+
+
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+div, button{
+  margin:15px;
+}
+
+.Container {
+    position: relative;
+    min-height: 300px;
+    max-height: 800px;
+    overflow: hidden;
+    margin-bottom: 500px;
+}
