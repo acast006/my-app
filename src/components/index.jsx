@@ -48,7 +48,7 @@ class MainPage extends Component {
   }
 
   // To pull top tracks
-    search(term) {
+    getTopTracks() {
       return fetch(
         'https://api.spotify.com/v1/me/top/tracks?limit=15&time_range=medium_term',
         {
